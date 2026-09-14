@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rudra | Advanced Software Architect, Business Logic Problem Solver & Cloud Infrastructure Engineer (AWS, Google Cloud, High-End & Low-End Hosting).">
+  <meta name="keywords" content="Software Architect, Cloud Hosting, AWS, Google Cloud, Business Logic Solutions, ERP Software, Hacker Theme Portfolio, Full Stack Developer">
+  <meta name="author" content="Rudra">
+  <title>RUDRA // Advanced Software Architect & Cloud Infrastructure</title>
+
+  <!-- Google Fonts: Lexend (3D Headings), Inter, and Fira Code (Hacker Monospace) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Lexend:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="cyber-body">
+
+  <!-- Cyber Scanline Overlay & Ambient Orbs -->
+  <div class="cyber-scanlines" aria-hidden="true"></div>
+  <div class="cyber-grid-bg" aria-hidden="true"></div>
+  <div class="glow-orb orb-brown" aria-hidden="true"></div>
+  <div class="glow-orb orb-amber" aria-hidden="true"></div>
+  <div class="glow-orb orb-flame" aria-hidden="true"></div>
+
+  <!-- Top System Telemetry HUD Bar -->
+  <aside class="system-hud-bar" aria-label="System status bar">
+    <div class="container hud-flex">
+      <div class="hud-item">
+        <span class="hud-indicator pulse-green"></span>
+        <span class="hud-label">SYSTEM:</span>
+        <span class="hud-val text-amber">ONLINE // SECURE</span>
+      </div>
+      <div class="hud-item hud-hide-mobile">
+        <span class="hud-label">CLOUD NODES:</span>
+        <span class="hud-val">AWS-US-EAST // GCP-MUMBAI</span>
+      </div>
+      <div class="hud-item hud-hide-mobile">
+        <span class="hud-label">HOSTING TIERS:</span>
+        <span class="hud-val text-amber">ENTERPRISE CLOUD &amp; LEAN VPS</span>
+      </div>
+      <div class="hud-item">
+        <span class="hud-label">ENCRYPTION:</span>
+        <span class="hud-val">AES-256-GCM</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="cyber-header" id="header">
+    <div class="container nav-flex">
+      <a href="#home" class="cyber-logo lexend-3d" id="brand-logo">
+        <span class="logo-bracket">[</span>RUDRA<span class="logo-accent">//</span>ARCHITECT<span class="logo-bracket">]</span>
+      </a>
+
+      <nav class="nav-bar" id="cyber-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#solutions" class="nav-item"><span class="code-prefix">01.</span>Solutions</a></li>
+          <li><a href="#hosting" class="nav-item"><span class="code-prefix">02.</span>Cloud Hosting</a></li>
+          <li><a href="#products" class="nav-item"><span class="code-prefix">03.</span>Products</a></li>
+          <li><a href="#services" class="nav-item"><span class="code-prefix">04.</span>Services</a></li>
+          <li><a href="#terminal" class="nav-item"><span class="code-prefix">05.</span>Terminal</a></li>
+          <li><a href="#contact" class="nav-item"><span class="code-prefix">06.</span>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <a href="#contact" class="btn btn-amber-glow" id="cta-init-talk">
+          <span class="btn-text">INITIALIZE TALK</span>
+          <span class="btn-arrow">&gt;&gt;</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <div class="tech-badge">
+            <span class="badge-icon">⚡</span>
+            <span>ADVANCED LOGICAL SOLUTIONS FOR ANY BUSINESS BOTTLENECK</span>
+          </div>
+
+          <h1 class="hero-headline lexend-3d">
+            LOGICAL SOLUTIONS.<br>
+            <span class="gradient-flame">HIGH-END CLOUD.</span><br>
+            UNBREAKABLE TECH.
+          </h1>
+
+          <div class="typewriter-line">
+            <span class="cli-prompt">&gt; rudra.exec(</span>
+            <span class="typewriter-text" id="typewriter"></span>
+            <span class="cursor-blink">|</span>
+            <span class="cli-prompt">)</span>
+          </div>
+
+          <p class="hero-subtext">
+            I engineer high-performance software systems and solve difficult business bottlenecks using advanced engineering. From multi-region <strong>AWS &amp; Google Cloud</strong> enterprise deployments to cost-optimized <strong>lean hosting plans</strong>, I build digital assets that never break.
+          </p>
+
+          <div class="hero-btn-group">
+            <a href="#solutions" class="btn btn-flame" id="hero-solutions-btn">
+              <span>EXPLORE LOGICAL SOLUTIONS</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+            <a href="#hosting" class="btn btn-cyber-border" id="hero-hosting-btn">
+              <span>VIEW HOSTING PLANS</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats-row">
+            <div class="stat-box">
+              <span class="stat-num lexend-3d">99.99%</span>
+              <span class="stat-desc">Server Uptime Targets</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num lexend-3d">&lt; 100ms</span>
+              <span class="stat-desc">Response Latency</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num lexend-3d">AWS &amp; GCP</span>
+              <span class="stat-desc">Certified Architectures</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Cyber Hologram & HUD Card -->
+        <div class="hero-visual-col">
+          <div class="cyber-frame-wrapper">
+            <div class="corner-bracket top-left"></div>
+            <div class="corner-bracket top-right"></div>
+            <div class="corner-bracket bottom-left"></div>
+            <div class="corner-bracket bottom-right"></div>
+
+            <div class="cyber-card glass-brown">
+              <div class="card-header-bar">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-amber"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span class="header-tab">ARCHITECT_PROFILE_V2.6</span>
+                <span class="badge-live">LIVE HUD</span>
+              </div>
+
+              <div class="architect-img-container">
+                <img src="assets/architect.jpg" alt="Rudra - Lead Software Architect &amp; Cloud Engineer" class="architect-photo" id="architect-img">
+                <div class="img-scan-effect"></div>
+                <div class="img-tag-overlay">
+                  <span class="tag-title">LEAD ARCHITECT</span>
+                  <span class="tag-name">Rudra</span>
+                </div>
+              </div>
+
+              <div class="telemetry-box">
+                <div class="telemetry-header">
+                  <span>ACTIVE SERVERS &amp; CLUSTERS</span>
+                  <span class="text-amber">100% OPERATIONAL</span>
+                </div>
+                <div class="telemetry-bar-wrap">
+                  <div class="telemetry-bar-label"><span>AWS EC2 / Elastic Load Balancers</span><span>98%</span></div>
+                  <div class="progress-track"><div class="progress-fill fill-amber" style="width: 98%;"></div></div>
+                </div>
+                <div class="telemetry-bar-wrap">
+                  <div class="telemetry-bar-label"><span>Google Cloud Compute &amp; BigQuery</span><span>94%</span></div>
+                  <div class="progress-track"><div class="progress-fill fill-flame" style="width: 94%;"></div></div>
+                </div>
+                <div class="telemetry-bar-wrap">
+                  <div class="telemetry-bar-label"><span>Budget VPS Lean Nginx / Node Stacks</span><span>99%</span></div>
+                  <div class="progress-track"><div class="progress-fill fill-green" style="width: 99%;"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: LOGICAL BUSINESS PROBLEM SOLVING -->
+    <section class="cyber-section section-brown-dark" id="solutions">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// RE-ENGINEERING BUSINESS EFFICIENCY</span>
+          <h2 class="section-title-3d lexend-3d">
+            LOGICAL SOLUTIONS FOR <span class="gradient-flame">ANY BUSINESS PROBLEM</span>
+          </h2>
+          <p class="section-lead-text">
+            No matter how complex, slow, or disorganized a business process is, there is always an optimal, elegant logical software solution. Here is my 4-tier diagnostic and execution matrix.
+          </p>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Step 1 -->
+          <div class="solution-card glass-brown">
+            <div class="sol-step-tag">PHASE 01</div>
+            <div class="sol-icon-box">🔍</div>
+            <h3 class="sol-title lexend-3d">Deconstruct &amp; Audit</h3>
+            <p class="sol-desc">
+              I analyze your entire business flow—sales, stock, human bottlenecks, paperwork, and slow spreadsheets—to pinpoint where value is leaked and where automation yields 10x ROI.
+            </p>
+            <ul class="sol-points">
+              <li>Root-cause architecture analysis</li>
+              <li>Data flow &amp; transaction auditing</li>
+              <li>Elimination of manual repetitive work</li>
+            </ul>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="solution-card glass-brown">
+            <div class="sol-step-tag">PHASE 02</div>
+            <div class="sol-icon-box">🧠</div>
+            <h3 class="sol-title lexend-3d">Logical Architecture</h3>
+            <p class="sol-desc">
+              Designing relational databases (MySQL, PostgreSQL), ACID transactions, and microservices tailored to your specific trade logic so operations run autonomously.
+            </p>
+            <ul class="sol-points">
+              <li>Relational schema &amp; foreign key integrity</li>
+              <li>Role-based access &amp; audit trails</li>
+              <li>Automated billing, stock &amp; invoicing</li>
+            </ul>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="solution-card glass-brown">
+            <div class="sol-step-tag">PHASE 03</div>
+            <div class="sol-icon-box">☁️</div>
+            <h3 class="sol-title lexend-3d">Cloud Server Deployment</h3>
+            <p class="sol-desc">
+              Deploying on the ideal cloud infrastructure—from high-end auto-scaling AWS/GCP clusters to cost-effective Linux VPS—matching your exact budget and traffic demands.
+            </p>
+            <ul class="sol-points">
+              <li>Zero-downtime CI/CD deployment</li>
+              <li>Reverse proxy, Brotli &amp; Redis caching</li>
+              <li>Global SSL &amp; firewall hardening</li>
+            </ul>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="solution-card glass-brown">
+            <div class="sol-step-tag">PHASE 04</div>
+            <div class="sol-icon-box">🛡️</div>
+            <h3 class="sol-title lexend-3d">Continuous Resiliency</h3>
+            <p class="sol-desc">
+              Implementing hacker-proof security, automated database backups, failover redundancy, and proactive monitoring so your business never goes dark.
+            </p>
+            <ul class="sol-points">
+              <li>Automated off-site database backups</li>
+              <li>DDoS mitigation &amp; brute-force shields</li>
+              <li>Live health alerts &amp; telemetry</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: CLOUD HOSTING PLANS (HIGH-END vs LOW-END) -->
+    <section class="cyber-section section-cloud-hosting" id="hosting">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// INFRASTRUCTURE &amp; HOSTING ARCHITECTURE</span>
+          <h2 class="section-title-3d lexend-3d">
+            HIGH-END CLOUD &amp; <span class="gradient-flame">BUDGET-OPTIMIZED HOSTING</span>
+          </h2>
+          <p class="section-lead-text">
+            Every business has different scale and budget requirements. I architect both <strong>high-end enterprise clouds</strong> (AWS / Google Cloud) and <strong>low-end cost-effective VPS hosting</strong> that squeeze maximum performance out of minimal spend.
+          </p>
+
+          <!-- Hosting Tier Filter Toggle -->
+          <div class="hosting-toggle-container">
+            <button class="tier-toggle-btn active" data-tier="all">ALL HOSTING TIERS</button>
+            <button class="tier-toggle-btn" data-tier="highend">HIGH-END CLOUD (AWS / GCP)</button>
+            <button class="tier-toggle-btn" data-tier="lowend">BUDGET &amp; LEAN VPS</button>
+          </div>
+        </div>
+
+        <div class="hosting-plans-grid">
+          <!-- Plan 1: High-End Enterprise Cloud (AWS & GCP) -->
+          <div class="plan-card glass-brown featured-plan" data-category="highend">
+            <div class="plan-ribbon">HIGH-END ENTERPRISE</div>
+            <div class="plan-header">
+              <div class="server-badge">AWS // GOOGLE CLOUD PLATFORM</div>
+              <h3 class="plan-title lexend-3d">Cloud Titanium Cluster</h3>
+              <p class="plan-tagline">Multi-region, auto-scaling, mission-critical enterprise reliability.</p>
+              <div class="plan-spec-summary">
+                <span class="spec-highlight">Unlimited Scale</span>
+                <span class="spec-highlight">99.99% SLA</span>
+              </div>
+            </div>
+            <div class="plan-divider"></div>
+            <div class="plan-specs">
+              <h4 class="specs-heading">Architecture Specifications:</h4>
+              <ul class="specs-list">
+                <li><span>Cloud Infrastructure:</span> <strong>AWS EC2 / GCP Compute Engine</strong></li>
+                <li><span>High Availability:</span> <strong>Multi-AZ Load Balancers</strong></li>
+                <li><span>Database Tier:</span> <strong>AWS Aurora / GCP Cloud SQL Clusters</strong></li>
+                <li><span>CDN &amp; Edge:</span> <strong>Global CloudFront / Fastly CDN</strong></li>
+                <li><span>Storage:</span> <strong>AWS S3 / GCS Multi-Region Buckets</strong></li>
+                <li><span>Security:</span> <strong>WAF, DDoS Shield, IAM Role Policies</strong></li>
+                <li><span>Automation:</span> <strong>Terraform IaC, Docker, Kubernetes</strong></li>
+              </ul>
+            </div>
+            <div class="plan-target">
+              <strong>Ideal for:</strong> High-traffic apps, heavy ERPs, multi-vendor marketplaces, and 24/7 global services.
+            </div>
+            <a href="#contact" class="btn btn-flame btn-full">DEPLOY HIGH-END CLOUD</a>
+          </div>
+
+          <!-- Plan 2: Mid-Tier Performance Cloud -->
+          <div class="plan-card glass-brown" data-category="highend">
+            <div class="plan-header">
+              <div class="server-badge">HYBRID CLOUD // DEDICATED</div>
+              <h3 class="plan-title lexend-3d">Performance Cloud Node</h3>
+              <p class="plan-tagline">Dedicated compute instances balanced for high-load web applications.</p>
+              <div class="plan-spec-summary">
+                <span class="spec-highlight">Dedicated Cores</span>
+                <span class="spec-highlight">NVMe SSD</span>
+              </div>
+            </div>
+            <div class="plan-divider"></div>
+            <div class="plan-specs">
+              <h4 class="specs-heading">Architecture Specifications:</h4>
+              <ul class="specs-list">
+                <li><span>Compute:</span> <strong>Dedicated 4-8 vCPU Nodes</strong></li>
+                <li><span>Web Server:</span> <strong>Tuned Nginx + HTTP/3 + Brotli</strong></li>
+                <li><span>Cache Layer:</span> <strong>In-Memory Redis / Memcached</strong></li>
+                <li><span>Database:</span> <strong>Optimized MySQL / PostgreSQL DB</strong></li>
+                <li><span>Backups:</span> <strong>Automated Daily External Snapshots</strong></li>
+                <li><span>SSL &amp; Protection:</span> <strong>Wildcard SSL + Cloudflare Pro</strong></li>
+                <li><span>Monitoring:</span> <strong>Uptime Kuma + Telegram/Email Alerts</strong></li>
+              </ul>
+            </div>
+            <div class="plan-target">
+              <strong>Ideal for:</strong> Rapidly scaling startups, dynamic catalogs, and regional businesses.
+            </div>
+            <a href="#contact" class="btn btn-cyber-border btn-full">CONFIGURE PERFORMANCE TIER</a>
+          </div>
+
+          <!-- Plan 3: Low-End Cost-Effective / Budget VPS -->
+          <div class="plan-card glass-brown" data-category="lowend">
+            <div class="plan-ribbon-budget">LOW-END / COST SAVER</div>
+            <div class="plan-header">
+              <div class="server-badge">LEAN LINUX VPS // ULTRA-EFFICIENT</div>
+              <h3 class="plan-title lexend-3d">Lean Speed Micro-Stack</h3>
+              <p class="plan-tagline">Custom optimized stack squeezing maximum output from budget $5-$10 VPS servers.</p>
+              <div class="plan-spec-summary">
+                <span class="spec-highlight">Ultra-Low Cost</span>
+                <span class="spec-highlight">Sub-100ms Speed</span>
+              </div>
+            </div>
+            <div class="plan-divider"></div>
+            <div class="plan-specs">
+              <h4 class="specs-heading">Architecture Specifications:</h4>
+              <ul class="specs-list">
+                <li><span>Server Type:</span> <strong>Linode / DigitalOcean / Hetzner VPS</strong></li>
+                <li><span>Optimization:</span> <strong>Zero Bloat, Stripped Linux Kernel</strong></li>
+                <li><span>Web Engine:</span> <strong>Lightweight Nginx + PHP-FPM / Node</strong></li>
+                <li><span>Database:</span> <strong>Tuned MariaDB with Low RAM Footprint</strong></li>
+                <li><span>Caches:</span> <strong>FastCGI Microcaching &amp; Page Cache</strong></li>
+                <li><span>Security:</span> <strong>UFW Firewall, Fail2Ban, Free SSL</strong></li>
+                <li><span>Backup:</span> <strong>Cron Automated S3 Dump Scripts</strong></li>
+              </ul>
+            </div>
+            <div class="plan-target">
+              <strong>Ideal for:</strong> Small businesses, portfolios, MVPs, and startups wanting zero hosting overhead.
+            </div>
+            <a href="#contact" class="btn btn-cyber-border btn-full">SETUP BUDGET LEAN HOSTING</a>
+          </div>
+        </div>
+
+        <!-- Datacenter Visual Showcase -->
+        <div class="datacenter-showcase glass-brown">
+          <div class="datacenter-img-col">
+            <img src="assets/datacenter.jpg" alt="Cyber Cloud Datacenter with Amber Lights" class="datacenter-img" id="datacenter-img">
+            <div class="datacenter-overlay">
+              <span class="hud-tag">GLOBAL DATACENTER GRID</span>
+            </div>
+          </div>
+          <div class="datacenter-info-col">
+            <div class="tech-badge-sm">MULTI-CLOUD STRATEGY</div>
+            <h3 class="datacenter-title lexend-3d">Zero Vendor Lock-In &amp; Custom Server Migration</h3>
+            <p class="datacenter-text">
+              Whether migrating from expensive unoptimized hosting to lightweight VPS nodes or architecting high-availability failover across <strong>AWS and Google Cloud</strong>, I handle every line of configuration, firewall rule, DNS record, and database migration seamlessly.
+            </p>
+            <div class="datacenter-badges">
+              <span class="badge-item">AWS EC2 / S3 / RDS</span>
+              <span class="badge-item">Google Cloud Compute &amp; SQL</span>
+              <span class="badge-item">XAMPP / Apache / Nginx</span>
+              <span class="badge-item">Docker &amp; Linux Scripting</span>
+              <span class="badge-item">Zero Downtime Migration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cloud Architecture & Hosting Comparison Table -->
+        <div class="table-responsive-wrapper glass-brown" style="margin-top: 3.5rem; padding: 2.25rem;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="hud-tag" style="margin-bottom: 0.5rem; display: inline-block;">INFRASTRUCTURE MATRIX</span>
+              <h3 class="lexend-3d" style="font-size: 1.6rem;">Cloud Architecture &amp; Hosting Comparison</h3>
+            </div>
+            <span class="badge-live" style="padding: 0.35rem 0.8rem; font-family: var(--font-mono); font-size: 0.78rem;">ALL TIERS ZERO WHITE BACKGROUND</span>
+          </div>
+
+          <table class="cyber-table">
+            <thead>
+              <tr>
+                <th>SPECIFICATION / METRIC</th>
+                <th>HIGH-END ENTERPRISE (AWS / GCP)</th>
+                <th>MID-TIER DEDICATED HYBRID</th>
+                <th>BUDGET-OPTIMIZED LEAN VPS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Primary Compute</strong></td>
+                <td><span class="text-amber">AWS EC2 / GCP Compute Clusters</span></td>
+                <td>Dedicated 8-Core Bare-Metal / KVM</td>
+                <td>Linode / DigitalOcean / Hetzner VPS</td>
+              </tr>
+              <tr>
+                <td><strong>High Availability &amp; Scaling</strong></td>
+                <td>Multi-AZ Auto Scaling &amp; Load Balancers</td>
+                <td>Dual Redundant Reverse Proxies</td>
+                <td>Optimized Single-Instance Microstack</td>
+              </tr>
+              <tr>
+                <td><strong>Database Engine</strong></td>
+                <td>AWS Aurora / GCP Cloud SQL Clusters</td>
+                <td>Tuned MySQL / PostgreSQL with Pool</td>
+                <td>Tuned MariaDB (Low-RAM Footprint)</td>
+              </tr>
+              <tr>
+                <td><strong>Global Edge &amp; Caching</strong></td>
+                <td>CloudFront / Fastly Multi-Edge CDN</td>
+                <td>Cloudflare Enterprise + Redis Cache</td>
+                <td>FastCGI Microcache + Nginx Page Cache</td>
+              </tr>
+              <tr>
+                <td><strong>Security &amp; Firewalls</strong></td>
+                <td>AWS Shield Advanced, WAF &amp; IAM Roles</td>
+                <td>UFW Firewall + Custom Fail2Ban</td>
+                <td>Hardened SSH, UFW + Free SSL</td>
+              </tr>
+              <tr>
+                <td><strong>Target Business Profile</strong></td>
+                <td>Mission-Critical / High Concurrency</td>
+                <td>Scaling Portals &amp; Heavy ERP Platforms</td>
+                <td>Lean Startups &amp; MVPs ($5-$10/mo)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: PRODUCTS & RECENT WORKS -->
+    <section class="cyber-section section-brown-dark" id="products">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// DEPLOYED ASSETS &amp; CASE STUDIES</span>
+          <h2 class="section-title-3d lexend-3d">
+            FEATURED <span class="gradient-flame">PRODUCTS &amp; WORKS</span>
+          </h2>
+          <p class="section-lead-text">
+            A selection of software platforms, business ERP systems, and cloud architectures built for speed, security, and measurable business impact.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <!-- Product 1: Vehicle Dealership CRM & Inventory -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-flame">
+              <div class="prod-badge">AUTOMOTIVE CRM &amp; INVENTORY</div>
+              <span class="prod-id">#01_VEHICLE_REPO</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Old Vehicle Market &amp; Dealership CRM</h3>
+              <p class="product-pitch">
+                Specialized used vehicle buy and sell inventory management software with integrated accounts. Features vehicle procurement intake, vehicle inspection logs, customer CRM, RC transfer status tracking, dealer commission calculation, and full dual-entry accounting ledger.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">JavaScript</span>
+                <span class="ptag">Node.js</span>
+                <span class="ptag">MySQL</span>
+                <span class="ptag">Vehicle Inventory</span>
+                <span class="ptag">Dealership CRM</span>
+                <span class="ptag">Accounts Ledger</span>
+              </div>
+              <div class="product-actions">
+                <a href="#contact" class="link-cyber">
+                  <span>REQUEST VEHICLE CRM DEMO</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: Budget App -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-amber">
+              <div class="prod-badge">FINANCIAL MOBILE APP</div>
+              <span class="prod-id">#02_BUDGET_APP</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Budget Fixing &amp; Transaction Tracking App</h3>
+              <p class="product-pitch">
+                Android financial mobile application built for rigorous budget fixing and real-time transaction tracking. Enables businesses and individuals to set spending caps, monitor recurring operational expenses, categorize cash outflows, and prevent cash leakages.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">Kotlin</span>
+                <span class="ptag">Android Native</span>
+                <span class="ptag">Transaction Tracking</span>
+                <span class="ptag">Budget Fixing</span>
+                <span class="ptag">Cash Flow Audits</span>
+              </div>
+              <div class="product-actions">
+                <a href="#contact" class="link-cyber">
+                  <span>DISCUSS MOBILE APP DEPLOYMENT</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: Wall-Dec -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-flame">
+              <div class="prod-badge">E-COMMERCE &amp; DECOR PLATFORM</div>
+              <span class="prod-id">#03_WALL_DEC</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Wall-Dec Enterprise Decor Platform</h3>
+              <p class="product-pitch">
+                A custom multi-tier web platform engineered for interior wallpaper and decorative installations. Features real-time roll stock synchronization, multi-attribute catalog filtering, dealer payment settlement module, accounting reports, and customer cart engine.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">React.js</span>
+                <span class="ptag">Node.js / Express</span>
+                <span class="ptag">MySQL</span>
+                <span class="ptag">Dealer Payments</span>
+                <span class="ptag">Accounts Reports</span>
+                <span class="ptag">Vite</span>
+              </div>
+              <div class="product-actions">
+                <a href="https://github.com/mruthramoorthi/wall-dec" target="_blank" rel="noopener noreferrer" class="link-cyber">
+                  <span>VIEW WALL-DEC REPO</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4: Enterprise Accounts & Dealer Payment Suite -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-amber">
+              <div class="prod-badge">ENTERPRISE ACCOUNTING</div>
+              <span class="prod-id">#04_ACCOUNTS_ERP</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Accounts &amp; Dealer Payment ERP Suite</h3>
+              <p class="product-pitch">
+                Full-scale business accounting system with dealer ledger management, payment reconciliations, aging balance reports, and automated GST-compliant tax invoicing. Eliminates billing errors and maintains accurate fiscal audit trails.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">Relational MySQL</span>
+                <span class="ptag">Express.js / PHP</span>
+                <span class="ptag">Dealer Payments</span>
+                <span class="ptag">Accounts Reports</span>
+                <span class="ptag">GST Invoicing</span>
+                <span class="ptag">Ledgers</span>
+              </div>
+              <div class="product-actions">
+                <a href="#contact" class="link-cyber">
+                  <span>REQUEST ACCOUNTS SUITE DEMO</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 5: Containerized Cloud Database Cluster -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-flame">
+              <div class="prod-badge">DEVOPS &amp; DATABASE</div>
+              <span class="prod-id">#05_MYSQL_CLOUD</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Containerized MySQL Cloud Cluster</h3>
+              <p class="product-pitch">
+                Production-ready Dockerized MySQL infrastructure deployed with automated container orchestration. Features optimized buffer pools, relational foreign key guarantees, TLS encryption, and automated offsite backups.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">Docker</span>
+                <span class="ptag">MySQL 8.0</span>
+                <span class="ptag">Render Cloud</span>
+                <span class="ptag">Linux Orchestration</span>
+                <span class="ptag">Automated Backups</span>
+              </div>
+              <div class="product-actions">
+                <a href="https://github.com/mruthramoorthi/mysql-msxg2dxu" target="_blank" rel="noopener noreferrer" class="link-cyber">
+                  <span>VIEW MYSQL TEMPLATE REPO</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 6: Neural Visual Search Microservice -->
+          <article class="product-item glass-brown">
+            <div class="product-header-glow glow-amber">
+              <div class="prod-badge">AI &amp; COMPUTER VISION</div>
+              <span class="prod-id">#06_AI_SERVICE</span>
+            </div>
+            <div class="product-content">
+              <h3 class="product-name lexend-3d">Neural Visual Search &amp; Matching Engine</h3>
+              <p class="product-pitch">
+                High-speed visual similarity service allowing users to upload photo patterns or product textures to instantly retrieve matching inventory rolls using vector feature embeddings and asynchronous Python/FastAPI microservices.
+              </p>
+              <div class="product-tags">
+                <span class="ptag">Python</span>
+                <span class="ptag">FastAPI / Uvicorn</span>
+                <span class="ptag">Vector Similarity</span>
+                <span class="ptag">Computer Vision</span>
+                <span class="ptag">Microservices</span>
+              </div>
+              <div class="product-actions">
+                <a href="#contact" class="link-cyber">
+                  <span>DISCUSS AI INTEGRATION</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SERVICES PROVIDED -->
+    <section class="cyber-section section-services" id="services">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// CAPABILITIES &amp; OFFERINGS</span>
+          <h2 class="section-title-3d lexend-3d">
+            END-TO-END <span class="gradient-flame">SERVICES PROVIDED</span>
+          </h2>
+          <p class="section-lead-text">
+            Specialized engineering services tailored for businesses that require high reliability, clean architectural logic, and rock-solid execution.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-box glass-brown">
+            <div class="service-num">01</div>
+            <h3 class="service-title lexend-3d">Custom Business ERP &amp; Logic Automation</h3>
+            <p class="service-text">
+              Building custom ERP systems from scratch that match your unique workflow, replacing manual spreadsheets with automated billing, inventory control, vendor balances, and financial reporting.
+            </p>
+          </div>
+
+          <div class="service-box glass-brown">
+            <div class="service-num">02</div>
+            <h3 class="service-title lexend-3d">AWS &amp; Google Cloud Architecture</h3>
+            <p class="service-text">
+              Designing, provisioning, and managing scalable cloud environments on AWS and Google Cloud with auto-scaling instances, managed databases, load balancers, and CDN caching layers.
+            </p>
+          </div>
+
+          <div class="service-box glass-brown">
+            <div class="service-num">03</div>
+            <h3 class="service-title lexend-3d">High-End &amp; Budget Hosting Setup</h3>
+            <p class="service-text">
+              From enterprise-tier high-availability clusters to ultra-lean budget VPS servers running high-speed Nginx and tuned PHP/Node runtimes, I set up the right hosting with zero downtime.
+            </p>
+          </div>
+
+          <div class="service-box glass-brown">
+            <div class="service-num">04</div>
+            <h3 class="service-title lexend-3d">Database Design &amp; Query Optimization</h3>
+            <p class="service-text">
+              Eliminating query lag, designing high-concurrency relational schemas (MySQL / MariaDB), setting up indexing strategies, and guaranteeing strict ACID transactions.
+            </p>
+          </div>
+
+          <div class="service-box glass-brown">
+            <div class="service-num">05</div>
+            <h3 class="service-title lexend-3d">Full-Stack Application Development</h3>
+            <p class="service-text">
+              Developing modern, lightning-fast frontend interfaces (React, Lexend typography, CSS3) backed by clean RESTful APIs (Node.js, Express, PHP, Python).
+            </p>
+          </div>
+
+          <div class="service-box glass-brown">
+            <div class="service-num">06</div>
+            <h3 class="service-title lexend-3d">Hacker-Proof Security &amp; Disaster Recovery</h3>
+            <p class="service-text">
+              Penetration auditing, firewall rules, automated off-site encrypted backups, zero-trust token auth, and bulletproof disaster recovery plans for mission-critical databases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: INTERACTIVE HACKER TERMINAL CONSOLE -->
+    <section class="cyber-section section-terminal" id="terminal">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// LIVE INTERACTIVE CONSOLE</span>
+          <h2 class="section-title-3d lexend-3d">
+            CYBER <span class="gradient-flame">TERMINAL CONSOLE</span>
+          </h2>
+          <p class="section-lead-text">
+            Type commands below or click preset buttons to query system status, services, cloud plans, and architecture details directly from the live CLI.
+          </p>
+        </div>
+
+        <div class="terminal-container glass-brown">
+          <div class="terminal-bar">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-amber"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">rudra@cyber-core:~# bash --interactive</span>
+            <div class="terminal-right-status">
+              <span class="hud-indicator pulse-green"></span>
+              <span>TTY1 // ACTIVE</span>
+            </div>
+          </div>
+
+          <div class="terminal-body" id="terminal-body">
+            <div class="term-line term-banner">
+              <pre class="term-ascii">
+██████╗ ██╗   ██╗██████╗ ██████╗  █████╗ 
+██╔══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗
+██████╔╝██║   ██║██║  ██║██████╔╝███████║
+██╔══██╗██║   ██║██║  ██║██╔══██╗██╔══██║
+██║  ██║╚██████╔╝██████╔╝██║  ██║██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝</pre>
+            </div>
+            <div class="term-line text-amber">
+              [SYSTEM INITIALIZED] Welcome to Rudra's Cyber Architecture Interface.
+            </div>
+            <div class="term-line text-muted">
+              Type <span class="term-cmd">help</span> to list available commands or click quick actions below.
+            </div>
+            <div id="term-history"></div>
+
+            <div class="term-input-row">
+              <span class="term-user-prompt">rudra@core:~$</span>
+              <input type="text" id="terminal-input" class="term-input" placeholder="type 'help', 'hosting', 'services', 'contact'..." autocomplete="off" spellcheck="false">
+            </div>
+          </div>
+
+          <div class="terminal-preset-buttons">
+            <span class="preset-label">QUICK COMMANDS:</span>
+            <button class="term-preset-btn" data-cmd="help">help</button>
+            <button class="term-preset-btn" data-cmd="solutions">solutions</button>
+            <button class="term-preset-btn" data-cmd="hosting">hosting</button>
+            <button class="term-preset-btn" data-cmd="products">products</button>
+            <button class="term-preset-btn" data-cmd="services">services</button>
+            <button class="term-preset-btn" data-cmd="status">status</button>
+            <button class="term-preset-btn" data-cmd="clear">clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CONTACT & CONSULTATION -->
+    <section class="cyber-section section-contact" id="contact">
+      <div class="container">
+        <div class="section-headline-wrap text-center">
+          <span class="cyber-subtitle">// DIRECT UPLINK</span>
+          <h2 class="section-title-3d lexend-3d">
+            INITIALIZE <span class="gradient-flame">BUSINESS CONSULTATION</span>
+          </h2>
+          <p class="section-lead-text">
+            Have a difficult business bottleneck to solve? Need high-availability AWS/GCP cloud setup or a cost-effective lean hosting strategy? Connect directly.
+          </p>
+        </div>
+
+        <div class="contact-cyber-wrapper glass-brown">
+          <!-- Info Column -->
+          <div class="contact-terminal-info">
+            <div class="contact-info-header">
+              <span class="code-comment">// ARCHITECT CONTACT CREDENTIALS</span>
+              <h3 class="contact-headline lexend-3d">Rudra</h3>
+              <p class="contact-subheadline">Lead Software Architect &amp; Cloud Engineer</p>
+            </div>
+
+            <div class="contact-credential-list">
+              <div class="credential-item">
+                <div class="cred-icon">📧</div>
+                <div>
+                  <span class="cred-label">DIRECT EMAIL</span>
+                  <a href="mailto:mruthramoorthi66@gmail.com" class="cred-value">mruthramoorthi66@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-icon">💻</div>
+                <div>
+                  <span class="cred-label">GITHUB REPOSITORIES</span>
+                  <a href="https://github.com/mruthramoorthi" target="_blank" rel="noopener noreferrer" class="cred-value">github.com/mruthramoorthi</a>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-icon">🌐</div>
+                <div>
+                  <span class="cred-label">LOCATIONS SERVED</span>
+                  <span class="cred-value">Global Remote &amp; On-Site Cloud Deployment</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-icon">⚡</div>
+                <div>
+                  <span class="cred-label">RESPONSE GUARANTEE</span>
+                  <span class="cred-value text-amber">Within 24 Hours with Actionable Proposal</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="security-guarantee-box">
+              <span class="sec-icon">🔒</span>
+              <p>All business discussions, code reviews, and database architectures are handled under strict NDA and confidential zero-trust protocols.</p>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="contact-form-panel">
+            <form id="cyber-contact-form" class="cyber-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-name" class="cyber-label"><span class="code-prefix">&gt;</span> Your Name / Company</label>
+                  <input type="text" id="contact-name" name="name" class="cyber-input" placeholder="e.g. Victor Stone // Apex Corp" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="contact-email" class="cyber-label"><span class="code-prefix">&gt;</span> Business Email</label>
+                  <input type="email" id="contact-email" name="email" class="cyber-input" placeholder="victor@apexcorp.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-phone" class="cyber-label"><span class="code-prefix">&gt;</span> Mobile / Phone Number</label>
+                  <input type="tel" id="contact-phone" name="phone" class="cyber-input" placeholder="+91 98765 43210" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="hosting-preference" class="cyber-label"><span class="code-prefix">&gt;</span> Targeted Hosting Tier</label>
+                  <select id="hosting-preference" name="hosting_tier" class="cyber-select">
+                    <option value="highend">High-End Cloud Enterprise (AWS / Google Cloud)</option>
+                    <option value="lowend">Budget-Optimized Lean VPS (Low Monthly Overhead)</option>
+                    <option value="hybrid">Mid-Tier Dedicated / Hybrid Node</option>
+                    <option value="custom_erp">Custom Business ERP &amp; Logic Automation</option>
+                    <option value="consult">Need Architectural Guidance / Diagnostic</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="project-scope" class="cyber-label"><span class="code-prefix">&gt;</span> Problem Statement / Project Scope</label>
+                <textarea id="project-scope" name="message" rows="5" class="cyber-input cyber-textarea" placeholder="Explain your business challenge, existing bottlenecks, expected scale, or what system you need built..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-flame btn-full" id="contact-submit">
+                <span class="btn-text">TRANSMIT REQUEST &gt;&gt;</span>
+              </button>
+
+              <div id="contact-status" class="cyber-status-msg" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CYBER FOOTER -->
+  <footer class="cyber-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="cyber-logo lexend-3d">
+          <span class="logo-bracket">[</span>RUDRA<span class="logo-accent">//</span>ARCHITECT<span class="logo-bracket">]</span>
+        </a>
+        <p class="footer-desc">
+          Engineering high-end logical architectures, resilient cloud servers (AWS/GCP), and lean budget hosting for businesses worldwide.
+        </p>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-col-title lexend-3d">FAST ACCESS</h4>
+        <ul class="footer-links">
+          <li><a href="#solutions">Logical Solutions</a></li>
+          <li><a href="#hosting">Cloud Hosting Plans</a></li>
+          <li><a href="#products">Deployed Products</a></li>
+          <li><a href="#terminal">Interactive Terminal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-col-title lexend-3d">SYSTEM PROTOCOLS</h4>
+        <ul class="footer-links">
+          <li><span class="text-amber">● AWS &amp; GCP Compliant</span></li>
+          <li><span class="text-amber">● Zero-Downtime Migration</span></li>
+          <li><span class="text-amber">● Low-End VPS Tuning</span></li>
+          <li><span class="text-amber">● Strict Data Confidentiality</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-action-col">
+        <a href="#home" class="back-to-top-btn" id="back-to-top" aria-label="Back to top">
+          <span class="top-arrow">▲</span>
+          <span class="top-text">TOP</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p class="copyright-text">&copy; 2026 Rudra. All System Nodes Encrypted. Engineered for Uncompromising Reliability.</p>
+        <div class="footer-build-info">
+          <span>BUILD: V2.6.4-HACKER-BROWN-AMBER</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
